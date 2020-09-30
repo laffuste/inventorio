@@ -1,0 +1,35 @@
+
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+#    url: jdbc:h2:mem:test;MODE=PostgreSQL
+    url: jdbc:h2:mem:test
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: validate
+
+inventorio:
+  productPaging: 11
+
+#  driverClassName: org.h2.Driver
+#  url: jdbc:h2:mem:myDb;DB_CLOSE_DELAY=-1
+#  url: jdbc:h2:~/test;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE
+#  url: jdbc:h2:mem:test;MODE=PostgreSQL
+
+#  jdbc:
+#    url=jdbc:h2:mem:test;MODE=PostgreSQL;DB_CLOSE_DELAY=-1:
+
+#  spring.datasource.url=jdbc:h2:mem:testdb
+#  spring.datasource.driverClassName=org.h2.Driver
+#  spring.datasource.username=sa
+#  spring.datasource.password=password
+#  spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+
+#hibernate:
+#  dialect: org.hibernate.dialect.H2Dialect
+#  hbm2ddl.auto: create
+
+

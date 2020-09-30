@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "inventorio.product-paging",
+      "type": "java.lang.Integer",
+      "description": "Page size for product browsing endpoint (/products/)."
+    }
+  ] }

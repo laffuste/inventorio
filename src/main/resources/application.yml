@@ -1,0 +1,16 @@
+
+
+server:
+  error:
+#    include-stacktrace: on_trace_param
+    include-stacktrace: on_param
+
+spring:
+  application:
+    name: inventorio
+  jackson:
+    mapper:
+      default-view-inclusion: true
+
+inventorio:
+  productPaging: 10
